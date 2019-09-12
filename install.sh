@@ -105,7 +105,10 @@ sv_maxclients 32
 # License key for your server (https://keymaster.fivem.net)
 sv_licenseKey ${KEY}" > server.cfg
 
+#CHMOD THE RUN FILE SO IT CAN BE EXECUTED
 chmod 777 /home/"$USER"/fivem/run.sh
+
+#SHOW TIME BABY ENJOY
 echo Starting FiveM Server...
 cd /home/"$USER"/fivem/server-data/ || exit
 bash /home/"$USER"/fivem/run.sh +exec server.cfg
