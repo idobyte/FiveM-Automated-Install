@@ -30,11 +30,13 @@ sudo rm -r /home/"$USER"/fivem/server-data/cfx-server-data/
 ## DOWNLOADING SERVER.CFG FROM MY SERVER LEL
 wget  serverbytes.org/server.cfg
 
-# Prompt the user for input
+# Prompt the user for server key input
 echo "Enter Server Key: "
-
-# Read the input to a variable
 read KEY
+
+# Prompt the user for server name input
+echo "Enter A Name For Your Server: "
+read NAME
 
 # Update the configuration file
 echo "# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
@@ -76,7 +78,7 @@ sets locale "en-US"
 #sets banner_connecting "https://url.to/image.png"
 
 # Set your server's hostname
-sv_hostname "Server Install Automated By Mr.Byte"
+sv_hostname ${NAME}
 
 # Nested configs!
 #exec server_internal.cfg
