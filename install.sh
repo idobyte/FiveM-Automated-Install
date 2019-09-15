@@ -113,4 +113,13 @@ chmod 777 /home/"$USER"/fivem/run.sh
 #SHOW TIME BABY ENJOY
 echo Starting FiveM Server...
 cd /home/"$USER"/fivem/server-data/ || exit
-bash /home/"$USER"/fivem/run.sh +exec server.cfg
+
+#Prompt to start server.
+while true; do
+    read -p "Do you wish to start the server?" yn
+    case $yn in
+        [Yy]* ) bash /home/"$USER"/fivem/run.sh +exec server.cfg; break;;
+        [Nn]* )echo "Have a good day"; exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
