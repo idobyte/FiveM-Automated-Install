@@ -14,7 +14,7 @@ sudo apt-get install xz-utils -y
 mkdir /home/"$USER"/fivem/
 cd /home/"$USER"/fivem/ || exit
 echo downloading FiveM Artifacts
-wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1686-c8d0683a79b5a1f1f7e46eb1bbeec14ca8006ede/fx.tar.xz 
+wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1715-7b3cbd26e3a808d33679bae4a908ddc94ee0bbb0/fx.tar.xz
 tar xf fx.tar.xz
 rm fx.tar.xz
 
@@ -28,7 +28,7 @@ sudo mv  -v ~/fivem/server-data/cfx-server-data/resources /home/"$USER"/fivem/se
 sudo rm -r /home/"$USER"/fivem/server-data/cfx-server-data/
 
 ## DOWNLOADING SERVER.CFG FROM MY SERVER LEL
-wget  serverbytes.org/server.cfg
+wget  https://idobyte.com/server.cfg
 
 # Prompt the user for server key input
 echo "Enter Server Key: "
