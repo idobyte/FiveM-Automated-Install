@@ -27,9 +27,6 @@ git clone https://github.com/citizenfx/cfx-server-data.git
 sudo mv  -v ~/fivem/server-data/cfx-server-data/resources /home/"$USER"/fivem/server-data/
 sudo rm -r /home/"$USER"/fivem/server-data/cfx-server-data/
 
-## DOWNLOADING SERVER.CFG FROM MY SERVER LEL
-wget  https://idobyte.com/server.cfg
-
 # Prompt the user for server key input
 echo "Enter Server Key: "
 read KEY
