@@ -14,7 +14,7 @@ sudo apt-get install xz-utils -y
 mkdir /home/"$USER"/fivem/
 cd /home/"$USER"/fivem/ || exit
 echo downloading FiveM Artifacts
-wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/1920-971227271da8099b386bcde54e0f557481489e6e/fx.tar.xz
+wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/2935-5ff66afb165151f6310e8b97bcb0d09e1a5a10be/fx.tar.xz
 tar xf fx.tar.xz
 rm fx.tar.xz
 
