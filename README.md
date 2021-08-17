@@ -12,4 +12,4 @@
 - 5. Run ./install.sh in the directory
 
 # ATTENTION
-[*] I no longer bhave time to manage this project so if you'd like the "task" of maintaning this release then feel free to do as you please as this code is open source... "Mr.Byte"
+- I no longer have time to manage this project so if you'd like the "task" of maintaning this release then feel free to do as you please as this code is open source... "Mr.Byte"
